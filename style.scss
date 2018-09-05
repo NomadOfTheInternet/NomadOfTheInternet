@@ -18,9 +18,32 @@ html {
 }
 
 body {
-	background: $white;
+	background-image: url("http://www.lostinwanderlust.co.uk/wp-content/uploads/2017/12/darkrift-orig_full.jpg");
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid white;
+background-color:#984b43;
+
+}
+
+td {
+vertical-align: middle; 
+padding: 10px;
+}	
+
+th {
+color: white;
+background: #233237;
+height:50px;
+vertical-align: middle;
 }
 
 .container {
@@ -28,6 +51,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+	background: rgba(0,200,150,0.45)
 }
 
 h1, h2, h3, h4, h5, h6 {
